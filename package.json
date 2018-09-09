@@ -1,0 +1,16 @@
+{
+  "name": "dapps.earth-credentials",
+  "version": "1.0.0",
+  "description": "Tiny HTTP server that can sign certain requests for dapps.earth audit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "burdakovd <icqkill@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws4": "^1.8.0",
+    "express": "^4.16.3"
+  }
+}
